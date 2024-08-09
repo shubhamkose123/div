@@ -1,0 +1,58 @@
+/* p inside div  */
+/* div p{
+    background-color: aqua;
+} */
+ /* dirrect child */
+ /* #mydiv p{
+    background-color:red ;
+ } */
+  /* net sibling */
+  /* #my div p{
+    background-color: aquamarine;
+  } */
+
+
+
+
+
+
+  /* by attribute namr */
+  input[type="text"]{
+    background-color: yellow;
+    height: 40px;
+  }
+  input[type=" number"]{
+    background-color: red;
+  }
+  a[target="_blank"]{
+    background-color: bisque;
+    
+  }
+  /* =============================================== */
+  li:first-child{
+    background-color: pink;
+  }
+  li:last-child{
+    background-color: aqua;
+  }
+  li:nth-child(10){
+    background-color :red ;
+  }
+  li:nth-child(2n){
+    background-color: bisque;
+  }
+   /* ============every even============== */
+   li:nth-child(odd){
+    background-color: red;
+    color: white;
+   }
+   li:nth-child(even){
+    background-color:blue;
+    color: white;
+   }
+   /* ==================================================== */
+   .form::after{
+    content: "*";
+    color: red;
+    padding: 2px;
+   }
